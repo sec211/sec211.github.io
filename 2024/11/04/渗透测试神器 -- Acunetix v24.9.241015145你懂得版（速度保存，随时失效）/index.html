@@ -16,27 +16,29 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="美化Windows Terminal 1、微软商店搜索oh-my-posh，会自动配置环境变量主题文件在C:\Users\Sven98\AppData\Local\Programs\oh-my-posh\themes 2、配置主题code $PROFILE  &#x2F;&#x2F;需要有vscode，没有请执行notepad $PROFILE  在$PROFILE写内容 1clear oh-my">
+    <meta name="description" content="免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！ 文章来源：https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;Uq7OsGYb3bwWKuecZsev9w *0x01 工具介绍* Acunetix 不仅仅是一个网络漏洞扫描器。它是一个完整的 W">
 <meta property="og:type" content="article">
-<meta property="og:title" content="美化Windows Terminal和WSL Terminal">
-<meta property="og:url" content="http://example.com/2024/11/04/%E7%BE%8E%E5%8C%96Windows%20Terminal%E5%92%8CWSL%20Terminal/index.html">
+<meta property="og:title" content="渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）">
+<meta property="og:url" content="http://example.com/2024/11/04/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8%20--%20Acunetix%20v24.9.241015145%E4%BD%A0%E6%87%82%E5%BE%97%E7%89%88%EF%BC%88%E9%80%9F%E5%BA%A6%E4%BF%9D%E5%AD%98%EF%BC%8C%E9%9A%8F%E6%97%B6%E5%A4%B1%E6%95%88%EF%BC%89/index.html">
 <meta property="og:site_name" content="云浮安全实验室">
-<meta property="og:description" content="美化Windows Terminal 1、微软商店搜索oh-my-posh，会自动配置环境变量主题文件在C:\Users\Sven98\AppData\Local\Programs\oh-my-posh\themes 2、配置主题code $PROFILE  &#x2F;&#x2F;需要有vscode，没有请执行notepad $PROFILE  在$PROFILE写内容 1clear oh-my">
+<meta property="og:description" content="免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！ 文章来源：https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;Uq7OsGYb3bwWKuecZsev9w *0x01 工具介绍* Acunetix 不仅仅是一个网络漏洞扫描器。它是一个完整的 W">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003913699.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003926692.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003937361.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104004004133.png">
-<meta property="article:published_time" content="2024-11-03T16:41:30.000Z">
-<meta property="article:modified_time" content="2024-11-03T16:41:47.090Z">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXicfhcPSMpj2WvuicZ91O0So11Vtd1A54GS7mdWCg0l1trdegMpibrnAEQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXunmFFHdiaAvz9wk5jHUDQSzRJCNBnoUV6sU27Nh5cPdxTNIILjCS1Mw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXib9W1dibJcGQib56KYnHBHELNOJeAJibBUnoqN5eobF6oNJnRTEGiaLUFhA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXboNkM9yAz3XJRgcSF8lhYiaLpnKTBiaI9LcGnVcK72LqMlPT46bxvMJA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icX9vibwiaH9ERtiaUbyiankfMhcnJy49bDoZACWxlERRL6iaLqLqdbkVKbZlA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXPV8wqb04wc69CdMA31yFAEpGG8Igw3dR8Sr7hDXDT5KDFibJWhndicZA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+<meta property="article:published_time" content="2024-11-03T16:52:30.000Z">
+<meta property="article:modified_time" content="2024-11-03T16:52:45.742Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="美化">
+<meta property="article:tag" content="漏洞扫描">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003913699.png">
+<meta name="twitter:image" content="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXicfhcPSMpj2WvuicZ91O0So11Vtd1A54GS7mdWCg0l1trdegMpibrnAEQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
   
   
   
-  <title>美化Windows Terminal和WSL Terminal - 云浮安全实验室</title>
+  <title>渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效） - 云浮安全实验室</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -231,7 +233,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="美化Windows Terminal和WSL Terminal"></span>
+            <span id="subtitle" data-typed-text="渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）"></span>
           
         </div>
 
@@ -242,7 +244,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-11-04 00:41" pubdate>
+        <time datetime="2024-11-04 00:52" pubdate>
           2024年11月4日 凌晨
         </time>
       </span>
@@ -254,7 +256,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          458 字
+          375 字
         
       </span>
     
@@ -310,37 +312,34 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">美化Windows Terminal和WSL Terminal</h1>
+            <h1 id="seo-header">渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="美化Windows-Terminal"><a href="#美化Windows-Terminal" class="headerlink" title="美化Windows Terminal"></a>美化Windows Terminal</h2><p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003913699.png" srcset="/img/loading.gif" lazyload alt="image-20241104003913699"></p>
-<h4 id="1、微软商店搜索oh-my-posh，会自动配置环境变量"><a href="#1、微软商店搜索oh-my-posh，会自动配置环境变量" class="headerlink" title="1、微软商店搜索oh-my-posh，会自动配置环境变量"></a><strong>1、微软商店搜索oh-my-posh，会自动配置环境变量</strong></h4><p>主题文件在C:\Users\Sven98\AppData\Local\Programs\oh-my-posh\themes</p>
-<h4 id="2、配置主题"><a href="#2、配置主题" class="headerlink" title="2、配置主题"></a><strong>2、配置主题</strong></h4><p>code $PROFILE  &#x2F;&#x2F;需要有vscode，没有请执行notepad $PROFILE </p>
-<p>在$PROFILE写内容</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">clear</span> <span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span> init pwsh <span class="hljs-literal">--config</span> <span class="hljs-variable">$env:POSH_THEMES_PATH</span>\montys.omp.json | <span class="hljs-built_in">Invoke-Expression</span><br></code></pre></td></tr></table></figure>
-
-<h4 id="3、乱码怎么解决？"><a href="#3、乱码怎么解决？" class="headerlink" title="3、乱码怎么解决？"></a><strong>3、乱码怎么解决？</strong></h4><p>下载其它font字体，例如JetBrains   下载地址<a target="_blank" rel="noopener" href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/JetBrainsMono.zip">https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/JetBrainsMono.zip</a></p>
-<p>安装后，在终端使用</p>
-<h4 id="4、禁止运行脚本怎么办？"><a href="#4、禁止运行脚本怎么办？" class="headerlink" title="4、禁止运行脚本怎么办？"></a><strong>4、禁止运行脚本怎么办？</strong></h4><p>用管理员运行powershell，改下更改执行策略。输入“set-executionpolicy remotesigned”，选，是</p>
-<h4 id="5、每次都有提示文本，怎么关闭"><a href="#5、每次都有提示文本，怎么关闭" class="headerlink" title="5、每次都有提示文本，怎么关闭"></a><strong>5、每次都有提示文本，怎么关闭</strong></h4><p>在json配置文件，大概在80行左右，加入 -NoLogo</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003926692.png" srcset="/img/loading.gif" lazyload alt="image-20241104003926692"></p>
-<h4 id="6、vscode终端乱码？"><a href="#6、vscode终端乱码？" class="headerlink" title="6、vscode终端乱码？"></a><strong>6、vscode终端乱码？</strong></h4><p>需要单独设置</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">JetBrainsMono Nerd <span class="hljs-attribute">Font</span> Mono<br></code></pre></td></tr></table></figure>
-
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104003937361.png" srcset="/img/loading.gif" lazyload alt="image-20241104003937361"></p>
-<h4 id="7、预览所有主题"><a href="#7、预览所有主题" class="headerlink" title="7、预览所有主题"></a><strong>7、预览所有主题</strong></h4><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">Get-PoshThemes</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="WSL-for-Ubuntu"><a href="#WSL-for-Ubuntu" class="headerlink" title="WSL for Ubuntu"></a><strong>WSL for Ubuntu</strong></h2><p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cimage-20241104004004133.png" srcset="/img/loading.gif" lazyload alt="image-20241104004004133"></p>
-<h4 id="1、安装oh-my-posh"><a href="#1、安装oh-my-posh" class="headerlink" title="1、安装oh-my-posh"></a><strong>1、安装oh-my-posh</strong></h4><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">sudo wget https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/JanDeDobbeleer/</span>oh-my-posh<span class="hljs-regexp">/releases/</span>latest<span class="hljs-regexp">/download/</span>posh-linux-amd64 -O <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/bin/</span>oh-my-posh sudo chmod +x <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/bin/</span>oh-my-posh<br></code></pre></td></tr></table></figure>
-
-<h4 id="2、载入them"><a href="#2、载入them" class="headerlink" title="2、载入them"></a><strong>2、载入them</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">mkdir</span> ~/.poshthemes wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/themes.zip -O ~/.poshthemes/themes.zip unzip ~/.poshthemes/themes.zip -d ~/.poshthemes <span class="hljs-built_in">chmod</span> u+rw ~/.poshthemes/*.omp.* <span class="hljs-built_in">rm</span> ~/.poshthemes/themes.zip<br></code></pre></td></tr></table></figure>
-
-<p>主题可以直接在Themes | Oh My Posh 查看，找到喜欢的json名字，在~&#x2F;.poshthemes下查看是否存在。</p>
-<h4 id="3、启用主题，xxx-omp-json为你想要的主题（如果要默认启动就在etc-profile最后一行加入这个）"><a href="#3、启用主题，xxx-omp-json为你想要的主题（如果要默认启动就在etc-profile最后一行加入这个）" class="headerlink" title="3、启用主题，xxx.omp.json为你想要的主题（如果要默认启动就在etc&#x2F;profile最后一行加入这个）"></a><strong>3、启用主题，xxx.omp.json为你想要的主题（如果要默认启动就在etc&#x2F;profile最后一行加入这个）</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">eval</span> <span class="hljs-string">&quot;<span class="hljs-subst">$(oh-my-posh --init --shell bash --config ~/.poshthemes/clean-detailed.omp.json)</span>&quot;</span><br></code></pre></td></tr></table></figure>
-
-<h4 id="ubuntu安装字体"><a href="#ubuntu安装字体" class="headerlink" title="ubuntu安装字体"></a><strong>ubuntu安装字体</strong></h4><p>ubuntu安装字体 字体有.ttf格式（truetype font）和.otf格式（opentype font）字体，在Ubantu上安装相应的字体。 把字体拷贝到&#x2F;usr&#x2F;share&#x2F;fonts&#x2F;，如果是ttf格式创建truetype目录，如果是otf格式创建opentype目录。 sudo mkfontscale (创建字体的fonts.scale文件,它用来控制字体旋转缩放) sudo mkfontdir(创建字体的fonts.dir文件,它用来控制字体粗斜体产生) sudo fc-cache -fv(建立字体缓存信息) fc-list(查看已经安装的)</p>
+                <p>免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！</p>
+<p>文章来源：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Uq7OsGYb3bwWKuecZsev9w">https://mp.weixin.qq.com/s/Uq7OsGYb3bwWKuecZsev9w</a></p>
+<p><em><strong>*0x01 工具介绍*</strong></em></p>
+<p>Acunetix 不仅仅是一个网络漏洞扫描器。它是一个完整的 Web 应用程序安全测试解决方案，既可以独立使用，也可以作为复杂环境的一部分使用。它提供内置的 漏洞评估 和 漏洞管理，以及与市场领先的软件开发工具集成的许多选项。通过将 Acunetix 作为您的安全措施之一，您可以显着提高您的网络安全立场，并以较低的资源成本消除许多安全风险 (sysin)。</p>
+<p><em><strong>*0x02 安装与使用*</strong></em></p>
+<p>一、双击运行exe文件，输入账号密码，一路下一步</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXicfhcPSMpj2WvuicZ91O0So11Vtd1A54GS7mdWCg0l1trdegMpibrnAEQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p>二、点击是，继续安装</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXunmFFHdiaAvz9wk5jHUDQSzRJCNBnoUV6sU27Nh5cPdxTNIILjCS1Mw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p>三、修改hosts文件</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXib9W1dibJcGQib56KYnHBHELNOJeAJibBUnoqN5eobF6oNJnRTEGiaLUFhA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p>四、替换文件</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXboNkM9yAz3XJRgcSF8lhYiaLpnKTBiaI9LcGnVcK72LqMlPT46bxvMJA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p>1、将压缩包中的wvsc文件覆盖到这里</p>
+<p>C:\Program Files (x86)\Acunetix\24.9.241015145\wvsc.exe</p>
+<p>2、将license和wa_data文件覆盖到这里</p>
+<p>C:\ProgramData\Acunetix\shared\license</p>
+<p>五、运行桌面上生成的快捷方式，输入上面设置的账号密码</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icX9vibwiaH9ERtiaUbyiankfMhcnJy49bDoZACWxlERRL6iaLqLqdbkVKbZlA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p>六、软件界面</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXPV8wqb04wc69CdMA31yFAEpGG8Igw3dR8Sr7hDXDT5KDFibJWhndicZA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p><strong>0x03 项目链接下载</strong></p>
+<p>1、网盘下载链接：<a target="_blank" rel="noopener" href="https://pan.quark.cn/s/1dcac20f276c">https://pan.quark.cn/s/1dcac20f276c</a></p>
 
                 
               </div>
@@ -359,7 +358,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%BE%8E%E5%8C%96/" class="category-chain-item">美化</a>
+  <a href="/categories/%E5%B7%A5%E5%85%B7/" class="category-chain-item">工具</a>
   
   
 
@@ -374,7 +373,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E7%BE%8E%E5%8C%96/" class="print-no-link">#美化</a>
+        <a href="/tags/%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F/" class="print-no-link">#漏洞扫描</a>
       
     </div>
   
@@ -386,8 +385,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>美化Windows Terminal和WSL Terminal</div>
-      <div>http://example.com/2024/11/04/美化Windows Terminal和WSL Terminal/</div>
+      <div>渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）</div>
+      <div>http://example.com/2024/11/04/渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）/</div>
     </div>
     <div class="license-meta">
       
@@ -431,18 +430,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/11/04/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8%20--%20Acunetix%20v24.9.241015145%E4%BD%A0%E6%87%82%E5%BE%97%E7%89%88%EF%BC%88%E9%80%9F%E5%BA%A6%E4%BF%9D%E5%AD%98%EF%BC%8C%E9%9A%8F%E6%97%B6%E5%A4%B1%E6%95%88%EF%BC%89/" title="渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/%E8%BF%91%E5%B9%B4HVV%E3%80%81%E7%BA%A2%E9%98%9F%E6%94%BB%E9%98%B2%E6%AF%94%E8%B5%9B%E4%B8%AD%E5%B8%B8%E8%A7%81%E5%A4%96%E5%9B%B4%E6%89%93%E7%82%B9%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E6%80%BB%E7%BB%93/" title="近年HVV、红队攻防比赛中常见外围打点漏洞的分析与总结">
-                        <span class="hidden-mobile">近年HVV、红队攻防比赛中常见外围打点漏洞的分析与总结</span>
+                      <a href="/2024/11/04/%E7%BE%8E%E5%8C%96Windows%20Terminal%E5%92%8CWSL%20Terminal/" title="美化Windows Terminal和WSL Terminal">
+                        <span class="hidden-mobile">美化Windows Terminal和WSL Terminal</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
