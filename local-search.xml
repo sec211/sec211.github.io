@@ -29,6 +29,31 @@
   
   
   <entry>
+    <title>NetExec！新一代内网/域渗透神器</title>
+    <link href="/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/NetExec%EF%BC%81%E6%96%B0%E4%B8%80%E4%BB%A3%E5%86%85%E7%BD%91%E5%9F%9F%E6%B8%97%E9%80%8F%E7%A5%9E%E5%99%A8/"/>
+    <url>/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/NetExec%EF%BC%81%E6%96%B0%E4%B8%80%E4%BB%A3%E5%86%85%E7%BD%91%E5%9F%9F%E6%B8%97%E9%80%8F%E7%A5%9E%E5%99%A8/</url>
+    
+    <content type="html"><![CDATA[<p>免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！</p><p>文章来源：<a href="https://mp.weixin.qq.com/s/owj5fBWirVzL-YcCwjZzEg">https://mp.weixin.qq.com/s/owj5fBWirVzL-YcCwjZzEg</a></p><p><strong>工具简介</strong></p><p>NetExec (nxc) 是一款功能强大的自动化网络安全评估与漏洞测试工具，是 CrackMapExec-已停止维护 (CME) 的现代继任者，现已被渗透测试人员和红队成员广泛使用，可被用于多种协议下的渗透测试中，目前支持的协议如下。</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">smb</span><br><span class="hljs-attribute">ssh</span><br><span class="hljs-attribute">ldap</span><br><span class="hljs-attribute">ftp</span><br><span class="hljs-attribute">wmi</span><br><span class="hljs-attribute">winrm</span><br><span class="hljs-attribute">rdp</span><br><span class="hljs-attribute">vnc</span><br><span class="hljs-attribute">mssql</span><br><span class="hljs-attribute">nfs</span><br></code></pre></td></tr></table></figure><p><strong>注意：</strong>并非所有协议都支持相同的功能，请务必检查每个协议的选项。</p><p><strong>Kali安装</strong></p><p>直接下载github上打包好的可执行文件即可，此种安装方式执行时间会较长，完美的方式是在kali下面使用apt安装。</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">sudo apt update sudo apt <span class="hljs-keyword">install</span> netexec<br></code></pre></td></tr></table></figure><p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C1233213123.jpg" alt="图片"></p><p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C123.jpg" alt="图片"></p><p><strong>使用截图</strong></p><p>这里就贴一个使用哈希对MSSQL进行密码喷洒的截图（来源@暴暴的皮卡丘），其他就不去具体测试了（我懒），更全面的使用方法可看官方Wiki！</p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">https:</span><span class="hljs-comment">//www.netexec.wiki/</span><br></code></pre></td></tr></table></figure><p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C640.jpg" alt="图片"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>内网渗透</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>区分Spring与Struts2框架的几种新方法</title>
     <link href="/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/%E5%8C%BA%E5%88%86Spring%E4%B8%8EStruts2%E6%A1%86%E6%9E%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B0%E6%96%B9%E6%B3%95/"/>
     <url>/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/%E5%8C%BA%E5%88%86Spring%E4%B8%8EStruts2%E6%A1%86%E6%9E%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B0%E6%96%B9%E6%B3%95/</url>

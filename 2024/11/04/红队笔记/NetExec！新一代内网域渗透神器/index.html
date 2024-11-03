@@ -16,34 +16,26 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！文章来源：https:&#x2F;&#x2F;cloud.tencent.com&#x2F;developer&#x2F;article&#x2F;2037499 Part1前言在近几年的HW比赛、红队项目中，攻击队在外围打点时，越来越依赖于对Jav">
+    <meta name="description" content="免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！ 文章来源：https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;owj5fBWirVzL-YcCwjZzEg 工具简介 NetExec (nxc) 是一款功能强大的自动化网络安全评估与漏洞测试工具，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="区分Spring与Struts2框架的几种新方法">
-<meta property="og:url" content="http://example.com/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/%E5%8C%BA%E5%88%86Spring%E4%B8%8EStruts2%E6%A1%86%E6%9E%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B0%E6%96%B9%E6%B3%95/index.html">
+<meta property="og:title" content="NetExec！新一代内网&#x2F;域渗透神器">
+<meta property="og:url" content="http://example.com/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/NetExec%EF%BC%81%E6%96%B0%E4%B8%80%E4%BB%A3%E5%86%85%E7%BD%91%E5%9F%9F%E6%B8%97%E9%80%8F%E7%A5%9E%E5%99%A8/index.html">
 <meta property="og:site_name" content="云浮安全实验室">
-<meta property="og:description" content="免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！文章来源：https:&#x2F;&#x2F;cloud.tencent.com&#x2F;developer&#x2F;article&#x2F;2037499 Part1前言在近几年的HW比赛、红队项目中，攻击队在外围打点时，越来越依赖于对Jav">
+<meta property="og:description" content="免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！ 文章来源：https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;owj5fBWirVzL-YcCwjZzEg 工具简介 NetExec (nxc) 是一款功能强大的自动化网络安全评估与漏洞测试工具，">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C6ad261ffdd09a4de136c8838e89fce60.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cc11f93b22ba6404c35fa84dfe52017fa.jpeg">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C87b29f0ed0a897e762e988473bcf174d.jpeg">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C2dfb13a398234c0d2bf946d296f3cdbe.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C680996a7b922b568961ee950d21dc04a.jpeg">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cf2d6b90720fa1d912b3c6426ee3b3260.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C02d9a9faf31822cf04cb223e0e9bc9bc.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C2fb75b46a04210ee6d50a2fa38caac42.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cd664c4376a23071068fef8f0c0d0ee8c.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C4a78c4c177f337ca147bebba33374679.png">
-<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cb32211251bc2c927698b623a1a8978d6.jpeg">
-<meta property="article:published_time" content="2024-11-03T16:24:30.000Z">
-<meta property="article:modified_time" content="2024-11-03T16:24:39.115Z">
+<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C1233213123.jpg">
+<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C123.jpg">
+<meta property="og:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C640.jpg">
+<meta property="article:published_time" content="2024-11-03T16:31:30.000Z">
+<meta property="article:modified_time" content="2024-11-03T16:33:00.947Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="红队实战">
+<meta property="article:tag" content="内网渗透">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C6ad261ffdd09a4de136c8838e89fce60.png">
+<meta name="twitter:image" content="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C1233213123.jpg">
   
   
   
-  <title>区分Spring与Struts2框架的几种新方法 - 云浮安全实验室</title>
+  <title>NetExec！新一代内网/域渗透神器 - 云浮安全实验室</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -238,7 +230,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="区分Spring与Struts2框架的几种新方法"></span>
+            <span id="subtitle" data-typed-text="NetExec！新一代内网/域渗透神器"></span>
           
         </div>
 
@@ -249,7 +241,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-11-04 00:24" pubdate>
+        <time datetime="2024-11-04 00:31" pubdate>
           2024年11月4日 凌晨
         </time>
       </span>
@@ -261,7 +253,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.9k 字
+          325 字
         
       </span>
     
@@ -272,7 +264,7 @@
         
         
         
-          16 分钟
+          3 分钟
         
       </span>
     
@@ -317,79 +309,31 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">区分Spring与Struts2框架的几种新方法</h1>
+            <h1 id="seo-header">NetExec！新一代内网/域渗透神器</h1>
             
             
               <div class="markdown-body">
                 
-                <p>免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！<br>文章来源：<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/2037499">https://cloud.tencent.com/developer/article/2037499</a></p>
-<h2 id="Part1前言"><a href="#Part1前言" class="headerlink" title="Part1前言"></a><strong>Part1前言</strong></h2><p>在近几年的HW比赛、红队项目中，攻击队在外围打点时，越来越依赖于对Java站点的漏洞挖掘。Java站点的主流框架大致就是两个：Struts2系列（包括Webwork等）及Spring系列（包括Spring MVC、SpringBoot等）。很多攻击队员在查找网站漏洞时，由于无法判断出网站所使用的框架，对于.do结尾的网站上去就是用Struts2工具、Spring漏洞工具开扫，这样的做法效率极低，容易被WAF封禁IP，进而导致错过相关漏洞。</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C6ad261ffdd09a4de136c8838e89fce60.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>网上的区分Struts2与Spring的方法，大多数是通过查看.do及.action后缀、网页报错、网站error异常、浏览器favicon.ico图标、Struts2拦截器报错等等，但是这些方法适用范围比较窄。</p>
-<p>本人前几年在调试分析S2-016、S2-032等漏洞的时候，无意中发现了几个特别简单实用的方法，现分享给大家。简单来说，就是利用Struts2框架和Spring框架在处理一些特殊的URL路径时，返回结果不一样的特性。</p>
-<h2 id="Part2方法汇总"><a href="#Part2方法汇总" class="headerlink" title="Part2方法汇总"></a><strong>Part2方法汇总</strong></h2><h3 id="方法1、URL中添加不存在路径"><a href="#方法1、URL中添加不存在路径" class="headerlink" title="方法1、URL中添加不存在路径"></a><strong>方法1、URL中添加不存在路径</strong></h3><p>在URL的反斜杠部分添加网站不存在的路径，最好是随机字符串组成的较长路径，如果返回同样的页面，则大概率是Struts2框架，如果返回404或者是报错，则大概率是Spring框架。</p>
-<p>比如说：<a target="_blank" rel="noopener" href="http://192.168.237.128:8080/struts2_032/example/aaaaaa1/bbbbbbbb2/ccccccccc3/HelloWorld.action">http://192.168.237.128:8080/struts2_032/example/aaaaaa1/bbbbbbbb2/ccccccccc3/HelloWorld.action</a></p>
-<p>在Struts2框架下，完全可以正常返回页面。</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cc11f93b22ba6404c35fa84dfe52017fa.jpeg" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>而Spring框架会出错</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C87b29f0ed0a897e762e988473bcf174d.jpeg" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>具体判断过程应参考如下步骤，一会儿讲讲具体原因：</p>
-<p>对于如下URL：<a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/barspace/login.do">http://127.0.0.1:9999/S2_016_war/barspace/login.do</a></p>
-<h4 id="第1步："><a href="#第1步：" class="headerlink" title="第1步："></a><strong>第1步：</strong></h4><p>在最后右边反斜杠处添加一个不存在的路径&#x2F;xxxxxxxxxx&#x2F;，如下所示：</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/barspace/xxxxxxxxx/login.do">http://127.0.0.1:9999/S2_016_war/barspace/xxxxxxxxx/login.do</a> 返回与原URL相同页面，则是Struts2框架</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/barspace/xxxxxxxxx/login.do">http://127.0.0.1:9999/S2_016_war/barspace/xxxxxxxxx/login.do</a> 返回与原URL异同页面，则是Spring框架</p>
-<h4 id="第2步："><a href="#第2步：" class="headerlink" title="第2步："></a><strong>第2步：</strong></h4><p>如果两个URL均报错、或者均正常，无法区分，那么继续在前一个反斜杠处添加一个不存在的路径，如下所示：</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/xxxxxxxxx/barspace/login.do">http://127.0.0.1:9999/S2_016_war/xxxxxxxxx/barspace/login.do</a> 返回与原URL相同页面，则是Struts2框架</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/xxxxxxxxx/barspace/login.do">http://127.0.0.1:9999/S2_016_war/xxxxxxxxx/barspace/login.do</a> 返回与原URL异同页面，则是Spring框架</p>
-<h4 id="第3步："><a href="#第3步：" class="headerlink" title="第3步："></a><strong>第3步：</strong></h4><p>如果还是没法区分，继续在前一个反斜杠处添加一个不存在的路径，如下所示：</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/xxxxxxxxx/S2_016_war/barspace/login.do">http://127.0.0.1:9999/xxxxxxxxx/S2_016_war/barspace/login.do</a> 返回与原URL相同页面，则是Struts2框架</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/xxxxxxxxx/S2_016_war/barspace/login.do">http://127.0.0.1:9999/xxxxxxxxx/S2_016_war/barspace/login.do</a> 返回与原URL异同页面，则是Spring框架</p>
-<p>按照前面的步骤，依次添加不存在的路径，直到URL根目录为止。</p>
-<h4 id="原理1：Struts2的URL构造"><a href="#原理1：Struts2的URL构造" class="headerlink" title="原理1：Struts2的URL构造"></a><strong>原理1：Struts2的URL构造</strong></h4><p>如果了解Struts2框架的读者，一眼就能看明白这种方法的原理，对于其他读者，要想弄明白这个方法的原理，首先需要看一下Struts2的URL构造：</p>
-<p>Struts2站点的URL路径包括四部分组成：工程名+namespace命名空间+action名+Struts2扩展名，举个例子，对于如下URL：<a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/barspace/login.action">http://127.0.0.1:9999/S2_016_war/barspace/login.action</a></p>
-<p>如果在Struts2框架中，大致应该这样去分析这个URL：</p>
-<p>&#x2F;S2-016-war&#x2F;部分是war包部署的工程名，也可以说是项目名、上下文等等，说法不一。</p>
-<p>&#x2F;barspace&#x2F;部分是Struts2的命名空间namespace。</p>
-<p>&#x2F;login部分是Struts2的action名，指向具体处理请求的Java类。</p>
-<p>.action部分是Struts2的扩展名，也可以定义为.do、.dw等等。</p>
-<p>参考如下的struts.xml配置文件：</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C2dfb13a398234c0d2bf946d296f3cdbe.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>同样对于URL：<a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/barspace/login.action">http://127.0.0.1:9999/S2_016_war/barspace/login.action</a></p>
-<p>如果网站应用直接部署在Tomcat根目录下，则工程名可以为空，此时URL如下所示：</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/barspace/login.action">http://127.0.0.1:9999/barspace/login.action</a></p>
-<p>如果namespace设置为空，则URL如下：</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/login.action">http://127.0.0.1:9999/login.action</a></p>
-<p>如果Struts2请求的扩展名为空，则URL如下：</p>
-<p><a target="_blank" rel="noopener" href="http://127.0.0.1:9999/login%EF%BC%88%E7%94%B1%E6%AD%A4%E5%8F%AF%E8%A7%81%EF%BC%8C%E8%BF%99%E7%A7%8DURL%E8%B7%AF%E5%BE%84%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%98%AFStruts2%E6%A1%86%E6%9E%B6%E7%9A%84%EF%BC%89">http://127.0.0.1:9999/login（由此可见，这种URL路径也可能是Struts2框架的）</a></p>
-<p>其中namespace可以配置为&#x2F;barspace&#x2F;spac1、action也可以配置为&#x2F;login&#x2F;user.action。这也是为什么有时候，我们需要在URL的每一个反斜杠前都添加一次不存在URL路径的原因，因为很难直接从URL中判断出哪一部分是namespace、哪一部分是action名。</p>
-<h4 id="原理2：Struts2向上查找action名"><a href="#原理2：Struts2向上查找action名" class="headerlink" title="原理2：Struts2向上查找action名"></a><strong>原理2：Struts2向上查找action名</strong></h4><p>在了解了Struts2的URL构造之后，接下来看一下如下URL，在Struts2下是可以返回正常页面的：<a target="_blank" rel="noopener" href="http://127.0.0.1:9999/S2_016_war/barspace/aaaaaaaaaa1/bbbbbbbb2/ccccccccc3/ddddddddddddd4/login.action">http://127.0.0.1:9999/S2_016_war/barspace/aaaaaaaaaa1/bbbbbbbb2/ccccccccc3/ddddddddddddd4/login.action</a></p>
-<p>因为按照Struts2框架规则，首先会在当前路径下找action名login，如果没有找到去上一层找，还没有找到会去上上层找，一直找到应用程序的根路径为止。层层向上查找，直接找到应用程序为止。（真实的流程比这个复杂）</p>
-<p>注：在网站的前端如果有nginx时，这种方法可能会无效，因为nginx可能会配置一些特殊URL转发，这时候就是nginx转发优先了。</p>
-<h3 id="方法2、URL添加-struts-domTT-css"><a href="#方法2、URL添加-struts-domTT-css" class="headerlink" title="方法2、URL添加&#x2F;struts&#x2F;domTT.css"></a><strong>方法2、URL添加&#x2F;struts&#x2F;domTT.css</strong></h3><p>在URL的Web应用根目录下添加&#x2F;struts&#x2F;domTT.css，如果返回css代码，那么99%是Struts2。</p>
-<p>注：这个domTT.css文件在网站源码文件中是找不到的，用磁盘搜索的方式搜索不到的，那为什么能访问到呢，因为这个文件在Struts2的jar包中。</p>
-<p>原理：凡是以&#x2F;struts开头的URL，Struts2的过滤器都会到struts2-core-2.0.x.jar：&#x2F;org&#x2F;apache&#x2F;struts2&#x2F;static&#x2F;下面去找资源，然后读取此文件内容。</p>
-<p>举例如下：</p>
-<p><a target="_blank" rel="noopener" href="http://192.168.237.128:8080/struts2_032/example/HelloWorld.action">http://192.168.237.128:8080/struts2_032/example/HelloWorld.action</a></p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C680996a7b922b568961ee950d21dc04a.jpeg" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>在网站根目录下添加&#x2F;struts&#x2F;domTT.css后访问，返回css代码。</p>
-<p><a target="_blank" rel="noopener" href="http://192.168.237.128:8080/struts2_032/struts/domTT.css">http://192.168.237.128:8080/struts2_032/struts/domTT.css</a></p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cf2d6b90720fa1d912b3c6426ee3b3260.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>注: 有一些低版本的Struts2框架，domTT.css文件不存在，需要更换为其它静态文件路径。</p>
-<h3 id="方法3、404、500响应码返回信息"><a href="#方法3、404、500响应码返回信息" class="headerlink" title="方法3、404、500响应码返回信息"></a><strong>方法3、404、500响应码返回信息</strong></h3><p>输入一个不存在的路径，返回404页面，或者传入一些乱码字符，造成当前页面500响应码报错，抛出异常信息。</p>
-<p>Struts2常用的关键字有这些：例如no action mapped、struts2、namespace、defined for action等。</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C02d9a9faf31822cf04cb223e0e9bc9bc.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C2fb75b46a04210ee6d50a2fa38caac42.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cd664c4376a23071068fef8f0c0d0ee8c.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p>Spring的报错信息如下：含有Whitelabel Error Page 关键字</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C4a78c4c177f337ca147bebba33374679.png" srcset="/img/loading.gif" lazyload alt="img"></p>
-<h3 id="方法4：看网站图标favicon-ico"><a href="#方法4：看网站图标favicon-ico" class="headerlink" title="方法4：看网站图标favicon.ico"></a><strong>方法4：看网站图标favicon.ico</strong></h3><p>注意看下图的左上角，有一片小绿叶的图标，那基本上就是Spring了，而Struts2框架没有常用的favicon.ico图标。</p>
-<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5Cb32211251bc2c927698b623a1a8978d6.jpeg" srcset="/img/loading.gif" lazyload alt="img"></p>
-<h2 id="Part3总结："><a href="#Part3总结：" class="headerlink" title="Part3总结："></a><strong>Part3总结：</strong></h2><ol>
-<li>URL扩展名不能用于区分Struts2、Spring框架，.do结尾的URL可能是Struts2、也可能是Spring，具体看程序员在配置文件中怎么写。</li>
-<li>利用处理特定URL时返回页面不相同的方法，可以区分不同的框架。</li>
-<li>总结各种报错信息，可以区分不同Web应用所采用的框架。</li>
-<li>多调试分析一下公开的漏洞，也会发现很多有趣的东西。还有其它的方法，有待大家挖掘。</li>
-</ol>
+                <p>免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！</p>
+<p>文章来源：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/owj5fBWirVzL-YcCwjZzEg">https://mp.weixin.qq.com/s/owj5fBWirVzL-YcCwjZzEg</a></p>
+<p><strong>工具简介</strong></p>
+<p>NetExec (nxc) 是一款功能强大的自动化网络安全评估与漏洞测试工具，是 CrackMapExec-已停止维护 (CME) 的现代继任者，现已被渗透测试人员和红队成员广泛使用，可被用于多种协议下的渗透测试中，目前支持的协议如下。</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">smb</span><br><span class="hljs-attribute">ssh</span><br><span class="hljs-attribute">ldap</span><br><span class="hljs-attribute">ftp</span><br><span class="hljs-attribute">wmi</span><br><span class="hljs-attribute">winrm</span><br><span class="hljs-attribute">rdp</span><br><span class="hljs-attribute">vnc</span><br><span class="hljs-attribute">mssql</span><br><span class="hljs-attribute">nfs</span><br></code></pre></td></tr></table></figure>
+
+
+
+<p><strong>注意：</strong>并非所有协议都支持相同的功能，请务必检查每个协议的选项。</p>
+<p><strong>Kali安装</strong></p>
+<p>直接下载github上打包好的可执行文件即可，此种安装方式执行时间会较长，完美的方式是在kali下面使用apt安装。</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">sudo apt update sudo apt <span class="hljs-keyword">install</span> netexec<br></code></pre></td></tr></table></figure>
+
+<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C1233213123.jpg" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C123.jpg" srcset="/img/loading.gif" lazyload alt="图片"></p>
+<p><strong>使用截图</strong></p>
+<p>这里就贴一个使用哈希对MSSQL进行密码喷洒的截图（来源@暴暴的皮卡丘），其他就不去具体测试了（我懒），更全面的使用方法可看官方Wiki！</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">https:</span><span class="hljs-comment">//www.netexec.wiki/</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="https://xiaoqian8.oss-cn-shanghai.aliyuncs.com/img%5C640.jpg" srcset="/img/loading.gif" lazyload alt="图片"></p>
 
                 
               </div>
@@ -408,7 +352,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%BA%A2%E9%98%9F/" class="category-chain-item">红队</a>
+  <a href="/categories/%E5%B7%A5%E5%85%B7/" class="category-chain-item">工具</a>
   
   
 
@@ -423,7 +367,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E7%BA%A2%E9%98%9F%E5%AE%9E%E6%88%98/" class="print-no-link">#红队实战</a>
+        <a href="/tags/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/" class="print-no-link">#内网渗透</a>
       
     </div>
   
@@ -435,8 +379,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>区分Spring与Struts2框架的几种新方法</div>
-      <div>http://example.com/2024/11/04/红队笔记/区分Spring与Struts2框架的几种新方法/</div>
+      <div>NetExec！新一代内网/域渗透神器</div>
+      <div>http://example.com/2024/11/04/红队笔记/NetExec！新一代内网域渗透神器/</div>
     </div>
     <div class="license-meta">
       
@@ -480,9 +424,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/NetExec%EF%BC%81%E6%96%B0%E4%B8%80%E4%BB%A3%E5%86%85%E7%BD%91%E5%9F%9F%E6%B8%97%E9%80%8F%E7%A5%9E%E5%99%A8/" title="NetExec！新一代内网/域渗透神器">
+                      <a href="/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/%E8%BF%91%E5%B9%B4HVV%E3%80%81%E7%BA%A2%E9%98%9F%E6%94%BB%E9%98%B2%E6%AF%94%E8%B5%9B%E4%B8%AD%E5%B8%B8%E8%A7%81%E5%A4%96%E5%9B%B4%E6%89%93%E7%82%B9%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E6%80%BB%E7%BB%93/" title="近年HVV、红队攻防比赛中常见外围打点漏洞的分析与总结">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">NetExec！新一代内网/域渗透神器</span>
+                        <span class="hidden-mobile">近年HVV、红队攻防比赛中常见外围打点漏洞的分析与总结</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -490,8 +434,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/06/14/360%20%E6%96%B0%E5%A4%A9%E6%93%8E%E7%BB%88%E7%AB%AF%E5%AE%89%E5%85%A8%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%AD%98%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2%E6%BC%8F%E6%B4%9E/" title="360 新天擎终端安全管理系统存在信息泄露漏洞">
-                        <span class="hidden-mobile">360 新天擎终端安全管理系统存在信息泄露漏洞</span>
+                      <a href="/2024/11/04/%E7%BA%A2%E9%98%9F%E7%AC%94%E8%AE%B0/%E5%8C%BA%E5%88%86Spring%E4%B8%8EStruts2%E6%A1%86%E6%9E%B6%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B0%E6%96%B9%E6%B3%95/" title="区分Spring与Struts2框架的几种新方法">
+                        <span class="hidden-mobile">区分Spring与Struts2框架的几种新方法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
