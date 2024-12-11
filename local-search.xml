@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>渗透测试神器</title>
+    <link href="/2024/12/11/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8/"/>
+    <url>/2024/12/11/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8/</url>
+    
+    <content type="html"><![CDATA[<p>免责声明：由于传播、利用本网站所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，网站及作者不为此承担任何责任，一旦造成后果请自行承担！如有侵权烦请告知，我们会立即删除并致歉。谢谢！</p><p>文章来源：<a href="https://mp.weixin.qq.com/s/Uq7OsGYb3bwWKuecZsev9w">https://mp.weixin.qq.com/s/Uq7OsGYb3bwWKuecZsev9w</a></p><p><em><strong>*0x01 工具介绍*</strong></em></p><p>Acunetix 不仅仅是一个网络漏洞扫描器。它是一个完整的 Web 应用程序安全测试解决方案，既可以独立使用，也可以作为复杂环境的一部分使用。它提供内置的 漏洞评估 和 漏洞管理，以及与市场领先的软件开发工具集成的许多选项。通过将 Acunetix 作为您的安全措施之一，您可以显着提高您的网络安全立场，并以较低的资源成本消除许多安全风险 (sysin)。</p><p><em><strong>*0x02 安装与使用*</strong></em></p><p>一、双击运行exe文件，输入账号密码，一路下一步</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXicfhcPSMpj2WvuicZ91O0So11Vtd1A54GS7mdWCg0l1trdegMpibrnAEQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>二、点击是，继续安装</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXunmFFHdiaAvz9wk5jHUDQSzRJCNBnoUV6sU27Nh5cPdxTNIILjCS1Mw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>三、修改hosts文件</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXib9W1dibJcGQib56KYnHBHELNOJeAJibBUnoqN5eobF6oNJnRTEGiaLUFhA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>四、替换文件</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXboNkM9yAz3XJRgcSF8lhYiaLpnKTBiaI9LcGnVcK72LqMlPT46bxvMJA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>1、将压缩包中的wvsc文件覆盖到这里</p><p>C:\Program Files (x86)\Acunetix\24.9.241015145\wvsc.exe</p><p>2、将license和wa_data文件覆盖到这里</p><p>C:\ProgramData\Acunetix\shared\license</p><p>五、运行桌面上生成的快捷方式，输入上面设置的账号密码</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icX9vibwiaH9ERtiaUbyiankfMhcnJy49bDoZACWxlERRL6iaLqLqdbkVKbZlA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p>六、软件界面</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/8H1dCzib3UibtHonbgVpOkvCpJ3o4em6icXPV8wqb04wc69CdMA31yFAEpGG8Igw3dR8Sr7hDXDT5KDFibJWhndicZA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p><p><strong>0x03 项目链接下载</strong></p><p>1、网盘下载链接：<a href="https://pan.quark.cn/s/1dcac20f276c">https://pan.quark.cn/s/1dcac20f276c</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>漏洞扫描</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>渗透测试神器 -- Acunetix v24.9.241015145你懂得版（速度保存，随时失效）</title>
     <link href="/2024/11/04/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8%20--%20Acunetix%20v24.9.241015145%E4%BD%A0%E6%87%82%E5%BE%97%E7%89%88%EF%BC%88%E9%80%9F%E5%BA%A6%E4%BF%9D%E5%AD%98%EF%BC%8C%E9%9A%8F%E6%97%B6%E5%A4%B1%E6%95%88%EF%BC%89/"/>
     <url>/2024/11/04/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%A5%9E%E5%99%A8%20--%20Acunetix%20v24.9.241015145%E4%BD%A0%E6%87%82%E5%BE%97%E7%89%88%EF%BC%88%E9%80%9F%E5%BA%A6%E4%BF%9D%E5%AD%98%EF%BC%8C%E9%9A%8F%E6%97%B6%E5%A4%B1%E6%95%88%EF%BC%89/</url>
